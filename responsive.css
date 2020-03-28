@@ -8,17 +8,19 @@
   }
 
   .main-image1 {
-    width: 350px;
     margin: 0px 0px 10px 0px;
+    max-width: 100%;
   }
 
   .main-image1-1 {
     margin: 0px 0px 10px 0px;
+    max-width: 100%;
+    width: 400px;
   }
 
   .main-image2 {
     margin: 10px 0px 10px 0px;
-    width: 350px;
+    max-width: 100%;
   }
 
   .facebook {
