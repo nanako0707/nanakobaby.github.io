@@ -1,18 +1,28 @@
 @media (max-width: 670px) {
   .top-wrapper h1 {
-    margin-top: 100px;
+    margin-top: 20px;
   }
   
-  .header-list{
+  .header-contents{
     display: none;
   }
 
-  body{
-    width: 100%;
+  .main-image1 {
+    width: 350px;
+    margin: 0px 0px 10px 0px;
   }
 
-  .footer{
-    width: 100%;
+  .main-image1-1 {
+    margin: 0px 0px 10px 0px;
+  }
+
+  .main-image2 {
+    margin: 10px 0px 10px 0px;
+    width: 350px;
+  }
+
+  .facebook {
+    margin-bottom: 10px;
   }
 
   .contact-submit{
