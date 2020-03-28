@@ -9,6 +9,8 @@ body {
 .header {
   height: 80px;
   background-color: #FF82B2;
+  display: flex;
+  align-items: center;
 }
 
 .header-logo {
@@ -19,15 +21,6 @@ body {
   letter-spacing: 5px;
   opacity: 0.7;
   font-family: serif;
-}
-
-.header-contents {
-  float: right;
-  padding :20px 20px;
-  color: white;
-  opacity: 0.7;
-  font-family: serif;
-  font-size: 20px;
 }
 
 .header-image {
@@ -49,20 +42,8 @@ body {
   padding-bottom: 10px;
 }
 
-.language-text1 {
+.hideContent {
   display: none;
-}
-
-.language-text2 {
-  display: none;
-}
-
-.language-text3 {
-  display: none;
-}
-
-.top-wrapper {
-  padding: 180px 0px 100ox 0px;
 }
 
 .top-wrapper h1 {
@@ -74,7 +55,7 @@ body {
   padding-top: 30px;
 }
 
-.contents h2 {
+.panel h2 {
   color: #FF99FF;
   font-size: 20px;
   font-family: "Lucida Grande";
@@ -104,6 +85,13 @@ body {
   padding-bottom: 10px;
 }
 
+.last-sentence h2 {
+  color: #FF99FF;
+    font-size: 20px;
+    font-family: "Lucida Grande";
+    padding-top: 20px;
+}
+
 .section-title {
   border-bottom: 2px dotted #dee7ec;
   font-size: 24px;
@@ -113,6 +101,9 @@ body {
 .contact-form {
   padding-top: 30px;
   background-image: url("https://www.pakutaso.com/shared/img/thumb/012stockphoto_TP_V.jpg");
+  display: flex;
+    align-items: center;
+    flex-direction: column;
 }
 
 .contact-form p {
@@ -121,10 +112,10 @@ body {
 
 input,textarea {
   width: 400px;
-  margin-bottom: 10px;
   padding: 20px;
   font-size: 18px;
   border: 1px solid #dee7ec;
+  margin-bottom: 10px;
 }
 
 .contact-submit {
@@ -146,15 +137,19 @@ input,textarea {
 
 .facebook {
   background-color: #3b5998;
-  margin-right: 10px;
+  margin-bottom: 10px;
 }
 
 .twitter {
   background-color: #55acee;
+  width: 197px;
 }
 
 .btn-wrapper {
   padding: 20px 0;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
 }
 
 .fa {
@@ -162,14 +157,13 @@ input,textarea {
 }
 
 .footer {
-  background-color :rgba(142, 22, 197, 0.5);
-  height :270px;
+  background-color : #f8f8f8;
+  height :60px;
 }
 
 .footer-logo {
 float: right;
-padding: 10px 20px;
+padding: 20px 20px;
 font-size: 20px;
-color: white;
-font-family: serif;
+color: #aaa;
 }
